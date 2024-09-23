@@ -162,13 +162,37 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-    margin: 5%;
 }
 
 #benefits-image {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Meetup Times */
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* will not wrap on screens <400px wide. each div will expand to fill space */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* creates grid of meetup time divs over background image    */
+    border: 2px solid #fafafa;
+
+}
+
+#times h3 {
+    color: #fafafa;
 }
 
 /* Footer */
