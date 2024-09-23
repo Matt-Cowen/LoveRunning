@@ -210,6 +210,12 @@ main {
     line-height: 0;
 }
 
+/* Sign Up */
+
+#form-container {
+    padding: 10px;
+}
+
 /* Footer */
 
 #social-networks {
