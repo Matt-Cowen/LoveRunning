@@ -135,7 +135,8 @@ main {
     text-align: center;
 }
 
-hr {
+#benefits hr {
+    border: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
@@ -148,8 +149,24 @@ hr {
     margin-bottom: 20px;
 }
 
-#reasons p {
+#benefits p {
     padding: 0 20px;
+}
+
+#circle-cover-bg {
+
+    height: 90vw;
+    width: 90vw;
+    background: url(../images/reasons-image.webp) no-repeat center center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
