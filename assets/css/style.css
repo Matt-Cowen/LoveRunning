@@ -98,10 +98,20 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: darkolivegreen;
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 
 /* Media query: tablets and larger (>767px) */
@@ -144,7 +154,7 @@ footer {
 
 @media screen and (min-width: 992px) {
     /* Header */
-    
+
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
